@@ -21,25 +21,37 @@ import { BookDisplay } from "./BookDisplay";
                 },
                 {
                     id: 3,
-                    title: "Accelerate",
-                    author: "Nicole Forsgren",
+                    title: "Book 3",
+                    author: "Author three",
                     isbn: "978-1942788331" 
                 },
                 {
                     id: 4,
-                    title: "Accelerate",
-                    author: "Nicole Forsgren",
+                    title: "Book 4",
+                    author: "Author four",
                     isbn: "978-1942788331" 
                 },
                 {
                     id: 5,
-                    title: "Accelerate",
-                    author: "Nicole Forsgren",
+                    title: "Book 5",
+                    author: "Author five",
                     isbn: "978-1942788331" 
                 },
                 {
                     id: 6,
-                    title: "Accelerate",
+                    title: "Book 6",
+                    author: "Nicole Forsgren",
+                    isbn: "978-1942788331" 
+                },
+                {
+                    id: 7,
+                    title: "Book 7",
+                    author: "Nicole Forsgren",
+                    isbn: "978-1942788331" 
+                },
+                {
+                    id: 8,
+                    title: "Book 8",
                     author: "Nicole Forsgren",
                     isbn: "978-1942788331" 
                 },
