@@ -40,19 +40,19 @@ import { BookDisplay } from "./BookDisplay";
                 {
                     id: 6,
                     title: "Book 6",
-                    author: "Nicole Forsgren",
+                    author: "Author six",
                     isbn: "978-1942788331" 
                 },
                 {
                     id: 7,
                     title: "Book 7",
-                    author: "Nicole Forsgren",
+                    author: "Author 7",
                     isbn: "978-1942788331" 
                 },
                 {
                     id: 8,
                     title: "Book 8",
-                    author: "Nicole Forsgren",
+                    author: "Author 8",
                     isbn: "978-1942788331" 
                 },
 
