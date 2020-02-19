@@ -9,7 +9,7 @@ constructor(props){
         authors: [
             {
                 fName: "FirstName1",
-                lName: "l"
+                lName: "lo"
             },
             {
                 fName: "FirstName2",
