@@ -1,13 +1,47 @@
-import React from "react";
+import React,{ Component } from "react";
 import "./Authors.css";
+import { AuthorDisplay } from "./AuthorDisplay";
 
-export default function Authors() {
+export default class Authors extends Component{
+constructor(props){
+    super(props);
+    this.state = {
+        authors: [
+            {
+                fName: "FirstName1",
+                lName: "lol"
+            },
+            {
+                fName: "FirstName2",
+                lName: "lol"
+            },
+            {
+                fName: "FirstName3",
+                lName: "lolol"
+            },
+            {
+                fName: "FirstName4",
+                lName: "lololol"
+            },
+            {
+                fName: "FirstName5",
+                lName: "lololol0l"
+            },
+            {
+                fName: "FirstName6",
+                lName: "lolololololol"
+            },
+   
+        ]
+    };
+};
+render(){
     return (
         <div className = "Authors">
             <div className= "lander">
-                <h1> Authors </h1>
-                <p> Welcome to Fisher Bookstore.</p>
+              <AuthorDisplay authors={this.state.authors}/>
             </div>
         </div>
     );
+    }
 }
