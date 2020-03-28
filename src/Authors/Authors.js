@@ -18,4 +18,3 @@ import { AuthorDisplay } from "./AuthorDisplay";
        </div>
    );
  }
-       
